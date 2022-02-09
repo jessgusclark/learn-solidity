@@ -1,0 +1,13 @@
+{
+  "name": "learn-solidity",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jesse Clark <hello@developerjesse.com>",
+  "license": "MIT",
+  "scripts":{
+    "ganache": "npx ganache-cli"
+  },
+  "dependencies": {
+    "ganache-cli": "^6.12.2"
+  }
+}
