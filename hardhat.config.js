@@ -17,7 +17,7 @@ task("accounts", "Prints the list of accounts", async (_taskArgs, hre) => {
 const mnemonic = fs.readFileSync('.seed-phrase').toString().trim();
 
 module.exports = {
-  solidity: "0.7.3",
+  solidity: "0.8.0",
   networks: {
     local: {
       url: 'http://localhost:8545',

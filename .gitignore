@@ -1,4 +1,10 @@
+# yarn stuff
 node_modules
-.seed-phrase
 yarn-error.log
+
+# Hardhad stuff
 cache
+artifacts
+
+# secrets
+.seed-phrase
