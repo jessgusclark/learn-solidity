@@ -5,7 +5,7 @@
   "author": "Jesse Clark <hello@developerjesse.com>",
   "license": "MIT",
   "scripts": {
-    "deploy:local": "npx hardhat run scripts/sample-script.js --network localhost",
+    "deploy:local": "npx hardhat run scripts/deploy.js --network localhost",
     "node": "npx hardhat node --network localhost"
   },
   "dependencies": {

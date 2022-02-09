@@ -19,13 +19,16 @@ const mnemonic = fs.readFileSync('.seed-phrase').toString().trim();
 module.exports = {
   solidity: "0.8.0",
   networks: {
-    local: {
-      url: 'http://localhost:8545',
+    rsktestnet: {
+      chainId: 31,
+      url: 'https://public-node.testnet.rsk.co/',
+      gasPrice: Math.floor(0x387ee40 * 1.1),
+      gasMultiplier: 1.1,
       accounts: {
-        mnemonic,
+        mnemonic: mnemonic,
         initialIndex: 0,
         path: "m/44'/60'/0'/0",
-        count: 5,
+        count: 10,
       },
     }
   }
